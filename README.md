@@ -1,0 +1,2 @@
+# theWaveOfWallStreet
+personal blog
