@@ -131,4 +131,4 @@ load_module modules/ngx_http_image_filter_module.so;
 
 ## 总结
 文章末尾，我们用一张图来总结整个动态编译流程。如图：
-{{% center %}}<img name="touchbar-config" src="/images/blog/2019-06/nginx_03.png" width='400px'/>{{% /center %}}
+{{% center %}}<img name="touchbar-config" src="/images/blog/2019-06/nginx_03.png" width='250px'/>{{% /center %}}
