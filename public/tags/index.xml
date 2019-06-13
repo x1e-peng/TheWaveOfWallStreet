@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on xpblog</title>
+    <link>https://xp329486175.github.io/tags/</link>
+    <description>Recent content in Tags on xpblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 11 Jun 2019 23:00:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://xp329486175.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://xp329486175.github.io/tags/nginx/</link>
+      <pubDate>Tue, 11 Jun 2019 23:00:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>反向代理</title>
+      <link>https://xp329486175.github.io/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Tue, 11 Jun 2019 23:00:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>负载均衡</title>
+      <link>https://xp329486175.github.io/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</link>
+      <pubDate>Tue, 11 Jun 2019 23:00:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://xp329486175.github.io/tags/mysql/</link>
+      <pubDate>Tue, 11 Jun 2019 15:28:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://xp329486175.github.io/tags/sql/</link>
+      <pubDate>Tue, 11 Jun 2019 15:28:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://xp329486175.github.io/tags/mac/</link>
+      <pubDate>Wed, 30 Jan 2019 20:21:13 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

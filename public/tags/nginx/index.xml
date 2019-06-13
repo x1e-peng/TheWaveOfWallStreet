@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on xpblog</title>
+    <link>https://xp329486175.github.io/tags/nginx/</link>
+    <description>Recent content in Nginx on xpblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 11 Jun 2019 23:00:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://xp329486175.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用nginx搭建一个简单的具有反向代理功能的网站</title>
+      <link>https://xp329486175.github.io/blog/2019-06/%E4%BD%BF%E7%94%A8nginx%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%85%B7%E6%9C%89%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%8A%9F%E8%83%BD%E7%9A%84%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Tue, 11 Jun 2019 23:00:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/blog/2019-06/%E4%BD%BF%E7%94%A8nginx%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%85%B7%E6%9C%89%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%8A%9F%E8%83%BD%E7%9A%84%E7%BD%91%E7%AB%99/</guid>
+      <description>Nginx介绍 作为一个web开发者，Nginx是最常用的web容器。 官方介绍 nginx是基于rest架构风格， 以统一资源描述符URI或者统一资源定位符URL作为沟通依据，通过HTTP协议提供各种网络服务的web服务器。 我的理解 物理上：nginx是由二进制文件、nginx.conf配置文件、access log、error log四部分组成。 逻辑上：nginx是由各种各样的模块（Modules）组成。模</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on xpblog</title>
+    <link>https://xp329486175.github.io/categories/</link>
+    <description>Recent content in Categories on xpblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 11 Jun 2019 23:00:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://xp329486175.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://xp329486175.github.io/categories/nginx/</link>
+      <pubDate>Tue, 11 Jun 2019 23:00:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://xp329486175.github.io/categories/mysql/</link>
+      <pubDate>Tue, 11 Jun 2019 15:28:48 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movie</title>
+      <link>https://xp329486175.github.io/categories/movie/</link>
+      <pubDate>Mon, 10 Jun 2019 20:29:37 -0700</pubDate>
+      
+      <guid>https://xp329486175.github.io/categories/movie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>杂技浅尝</title>
+      <link>https://xp329486175.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
+      <pubDate>Wed, 30 Jan 2019 20:21:13 +0800</pubDate>
+      
+      <guid>https://xp329486175.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
