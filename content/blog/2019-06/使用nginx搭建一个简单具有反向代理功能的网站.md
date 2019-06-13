@@ -16,8 +16,8 @@ toc: true
 以统一资源描述符`URI`或者统一资源定位符`URL`作为沟通依据，通过`HTTP`协议提供各种网络服务的web服务器。
 
 ### 我的理解   
-物理上：`nginx`是由`二进制文件`、`nginx.conf`配置文件、`access log`、`error log`四部分组成。   
-逻辑上：`nginx`是由各种各样的`模块（Modules）`组成。模块里面又包含`指令（Directives）`、`变量（Varibles）`
+物理上：nginx是由`二进制文件`、`nginx.conf`配置文件、`access log`、`error log`四部分组成。   
+逻辑上：nginx是由各种各样的`模块（Modules）`组成。模块里面又包含`指令（Directives）`、`变量（Varibles）`
 这两个重要的成员。
 
 ## 先搭建一个静态web网站
@@ -51,13 +51,13 @@ nginx的开源官网为`nginx.org`。我们可以直接去`download`里面下载
 ➜  xp make: *** [build] Error 2
 ```
 此时我们有两种方式来解决这个问题：
-#### 不安装openssl
+#### 方法一：不安装openssl
 
 ```shell
 ➜  xp ./configure --prefix=/Users/xiepeng/xp/nginx --with-http_ssl_module
 ```
 
-#### 修改openssl对应路径
+#### 方法二：修改openssl对应路径
 根据报错信息我们知道，出错是因为Nginx在编译时并不能在`/usr/local/ssl/.openssl/`这个目录找到对应的文件，
 其实我们打开`/usr/local/ssl/`这个目录可以发现这个目录下是没有`.openssl`目录的，因此我们修改Nginx编译时对
 `openssl`的路径选择就可以解决这个问题了。   
