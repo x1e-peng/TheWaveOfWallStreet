@@ -12,3 +12,8 @@ summary = "mysql学习笔记。"
 name = "nginx"
 img = "/img/nginx.jpg"
 summary = "nginx学习笔记。"
+
+[[series]]
+name = "网络协议"
+img = "/img/protocol.png"
+summary = "学透网络协议，提升技术本质认知。"
