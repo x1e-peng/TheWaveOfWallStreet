@@ -1,17 +1,12 @@
 [[series]]
-name = "mac小白探索记"
-img = "/img/mac.jpg"
-summary = "Mac小白以提高生产力为目标，探索如何高效配置及使用Mac。"
-
-[[series]]
-name = "sql小技巧"
+name = "mysql"
 img = "/img/mysql.jpg"
-summary = "mysql学习笔记。"
+summary = "Mysql学习笔记。"
 
 [[series]]
 name = "nginx"
 img = "/img/nginx.jpg"
-summary = "nginx学习笔记。"
+summary = "Nginx与OpenResty学习笔记。"
 
 [[series]]
 name = "网络协议"

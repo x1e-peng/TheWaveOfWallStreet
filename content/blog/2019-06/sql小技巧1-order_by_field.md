@@ -2,8 +2,8 @@
 date: "2019-06-11T15:28:48+08:00"
 draft: false
 title: "sql小技巧(1) order by field"
-tags: ["Mysql", "sql"]
-series: ["sql小技巧"]
+tags: ["Mysql", "sql","sql小技巧"]
+series: ["mysql"]
 categories: ["Mysql"]
 toc: true
 ---
