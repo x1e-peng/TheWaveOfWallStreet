@@ -2,9 +2,9 @@
 date: "2019-06-13T21:00:00+08:00"
 draft: false
 title: "nginx模块之动态编译"
-tags: ["Nginx", "nginx模块"]
+tags: ["nginx", "nginx模块"]
 series: ["nginx"]
-categories: ["Nginx"]
+categories: ["nginx"]
 toc: true
 ---
 

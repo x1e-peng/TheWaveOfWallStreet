@@ -1,10 +1,10 @@
 ---
 date: "2019-06-12T23:00:48+08:00"
-draft: true
+draft: false
 title: "使用nginx搭建一个简单具有反向代理功能的网站"
-tags: ["Nginx", "反向代理与负载均衡"]
+tags: ["nginx", "反向代理与负载均衡"]
 series: ["nginx"]
-categories: ["Nginx"]
+categories: ["nginx"]
 toc: true
 ---
 
