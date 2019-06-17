@@ -12,7 +12,7 @@ toc: true
 在工作中，遇到了一个需求，需要通过`where in $condition`查询，
 然后查询出来的结果又需要按照`$condition`来排序。
 
-此时就可以用到`where in field`来进行排序了。
+此时就可以用到`order by field`来进行排序了。
 
 ## 例子
 
