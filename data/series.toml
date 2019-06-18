@@ -4,11 +4,16 @@ img = "/img/mysql.jpg"
 summary = "Mysql学习笔记。"
 
 [[series]]
+name = "网络协议"
+img = "/img/protocol.png"
+summary = "学透网络协议，拓宽技术边界。"
+
+[[series]]
+name = "操作系统"
+img = "/img/operation.png"
+summary = "计算机是怎么跑起来的？软件是怎么运行的？..."
+
+[[series]]
 name = "nginx"
 img = "/img/nginx.jpg"
 summary = "Nginx与OpenResty学习笔记。"
-
-[[series]]
-name = "网络协议"
-img = "/img/protocol.png"
-summary = "学透网络协议，提升技术本质认知。"
