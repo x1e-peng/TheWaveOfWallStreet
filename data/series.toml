@@ -4,9 +4,9 @@ img = "/img/mysql.jpg"
 summary = "Mysql学习笔记。"
 
 [[series]]
-name = "网络协议"
+name = "计算机网络"
 img = "/img/protocol.png"
-summary = "学透网络协议，拓宽技术边界。"
+summary = "探究计算机网络世界，拓宽技术边界。"
 
 [[series]]
 name = "操作系统"
