@@ -43,8 +43,7 @@ write log和check point直接空着的部分，可以用来记录新的操作。
 mysql-binlog是MySQL数据库的二进制日志，用于记录用户对数据库操作的SQL语句（(除了数据查询语句）信息。
 可以使用mysqlbin命令查看二进制日志的内容。
 
-binlog的格式也有三种：STATEMENT、ROW、MIXED 。
-
+binlog的格式有三种：STATEMENT、ROW、MIXED 。
 
 1、`STATMENT模式`：基于SQL语句的复制(statement-based replication, SBR)，每条修改数据的sql语句都会记录到binlog中。   
 优点：不需要记录每一条SQL语句与每行的数据变化，这样子binlog的日志也会比较少，减少了磁盘IO，提高性能。          
@@ -100,10 +99,10 @@ update test set v=v+1 where ID=2;
 
 1、**先写reredo log后写binlog。**假设在redo log写完，binlog还没有写完的时候，MySQL进程异常重启。由于我们前面说过的，redo log写完之后，系统即使崩溃。
 仍然能够把数据恢复回来，所以恢复后这一行v的值是 1。
-但是由于 binlog 没写完就 crash 了，这时候 binlog 里面就没有记录这个语句。因此，之后备份日志的时候，存起来的 binlog 里面就没有这条句。 
+但是由于binlog没写完就crash了，这时候binlog 里面就没有记录这个语句。因此，之后备份日志的时候，存起来的 binlog 里面就没有这条句。 
 然后你会发现，如果需要用这个binlog来恢复临时库的话，由于这个语句的binlog丢失，这个临时库就会少了这一次更新，恢复出来的这一行v的值就是0，与原库的值不同。
 
-2、**先写binlog后写redo log。**如果在binlog 写完之后 crash，由于 redo log 还没写，崩溃恢复以后这个事务无效，所以这一行v的值是 0。
+2、**先写binlog后写redo log。**如果在binlog写完之后crash，由于 redo log 还没写，崩溃恢复以后这个事务无效，所以这一行v的值是0。
 但是binlog里面已经记录了"把v从0改成1"这个日志。所以，在之后用binlog来恢复的时候就多了一个事务出来，恢复出来的这一行v的值就是1，与原库的值不同。
 
 可以看到，如果不使用“两阶段提交”，那么数据库的状态就有可能和用它的日志恢复出来的库的状态不一致。
