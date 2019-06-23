@@ -25,6 +25,9 @@
       <li class="middot"></li>
       <li>{{ i18n "readingTime" .ReadingTime }}</li>
     {{ end }}
+    <li id="busuanzi_container_page_pv" style='display:none'>
+      <span><img src="/img/view.png"> </span><span id="busuanzi_value_page_pv"></span>
+    </li>
   </ul>
   {{ with .Params.img }}
     <div class="view">
