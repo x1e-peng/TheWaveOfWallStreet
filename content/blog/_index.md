@@ -19,4 +19,6 @@ title = "Blog"
 
 - Nosql: redis、memcache、mangodb、vanish等.
 
+- Python: Python学习笔记.
+
 - 杂技浅尝: 杂七杂八.
